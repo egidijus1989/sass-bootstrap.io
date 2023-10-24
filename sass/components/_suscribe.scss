@@ -1,0 +1,31 @@
+.suscribtion-form{
+    background-color: #F9E0AE;
+    padding: 50px;
+    margin: 50px 0;
+    align-items: center;
+    gap: 25px;
+    .form-control{
+        border-radius: 0;
+        text-align: center;
+        padding: 25px;
+    }
+    .form-control::placeholder{
+        color: rgba(0, 0, 0, 0.50);
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        word-wrap: break-word 
+    }
+    .subscribtion-btn{
+        width: 100%;
+        background-color: #C24914;
+        border-radius: 0%;
+        color: white;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        word-wrap: break-word;
+        border: none;
+        padding: 25px;
+        }
+}   

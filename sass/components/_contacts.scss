@@ -1,0 +1,84 @@
+.contacts{
+    background-color: #F9E0AE;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 75px 25px;
+    &-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        &-img{
+            width: 38px;
+            height: 38px;
+        }
+        .p-logo {
+            color: black;
+            font-size: 40px;
+            font-family: 'Jim Nightshade', sans-serif;
+            font-weight: 400;
+            word-wrap: break-word;
+            color: #000;
+        }
+    }
+    &-socialLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        &-links{
+            border: none;
+            border-radius: 0%;
+            background-color: #F9E0AE;
+            .list-group-item{
+                border: none;
+                border-radius: 0%;
+                background-color: #F9E0AE;
+                padding-left: 5px;
+            }
+            
+        }
+    }
+    &-usefulLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &-list{
+            a{
+                color: #6C6C6C;
+                font-size: 15px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                word-wrap: break-word;
+                text-decoration: none;
+            }
+        }
+    }
+    &-contacts{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start
+        ;
+        &-list{
+            ul{
+                list-style: none;
+                padding: 0;
+                li{
+                    color: rgba(0, 0, 0, 0.50);
+                    font-size: 15px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    word-wrap: break-word;
+                }
+            }
+        }
+    }
+    p {
+        color: black;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        word-wrap: break-word 
+    }
+}   
