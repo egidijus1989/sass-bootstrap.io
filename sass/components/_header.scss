@@ -9,6 +9,11 @@ header{
         flex-direction: row;
         justify-content: end;
         gap: 50px;
+        @media (max-width: 576px){
+            .navbar{
+                display: none;
+            }
+        }
     }
     .navbar-nav {
         gap: 50px;
